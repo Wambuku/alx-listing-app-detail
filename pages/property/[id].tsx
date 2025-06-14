@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import PropertyDetail from "@/components/property/PropertyDetail";
-import BookingSection from "@/components/property/BookingScection";
+import BookingSection from "@/components/property/BookingSection";
 
 export default function PropertyPage() {
   const router = useRouter();
